@@ -1,0 +1,58 @@
+.container {
+	width: 100%;
+	max-height: 110px;
+	min-height: 110px;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+    color: white;
+    background-color: oldlace;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.child {
+	height: 100%;
+	scroll-snap-align: start;
+	padding: 0.5em;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    flex: 0 0 20%;
+	
+}
+
+.foto-perfil{
+    min-width: 70px;
+	max-width: 70px;
+	min-height: 70px;
+	max-height: 70px;
+	margin-bottom: 2px;
+    border-radius: 40px;
+}
+
+.nombre-usuario{
+    font-size: 14px;
+    color: white;
+}
+
+.icono-agregar{
+	position: absolute;
+	width: 20px;
+	z-index: 2;
+	left: 215px;
+ 	top: 125px;
+}
+
+.contorno{
+	background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%);
+	width: 75px;
+	height: 75px;
+	border-radius: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+
